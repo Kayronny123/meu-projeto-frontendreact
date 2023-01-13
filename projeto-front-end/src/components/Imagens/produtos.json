@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "name": "Arma de portais",
+      "price": 6000,
+      "imageUrl": "arma-portais.jpg",
+      "imageAlt": "Portais"
+    },
+    {
+      "id": 2,
+      "name": "Bateria de Microverso",
+      "price": 4000,
+      "imageUrl": "bateria-microverso.jpeg",
+      "imageAlt": "Bateria"
+    },
+    {
+      "id": 3,
+      "name": "Caixa de Meeseks",
+      "price": 2000,
+      "imageUrl": "caixa-meeseks.jfif",
+      "imageAlt": "Meeseks"
+    },
+    {
+      "id": 4,
+      "name": "Espaçonave",
+      "price": 9000,
+      "imageUrl": "espaconave-rick.jpg",
+      "imageAlt": "Espaçonave"
+    },
+    {
+      "id": 5,
+      "name": "Robozinho passa manteiga",
+      "price": 1000,
+      "imageUrl": "robo-passa-manteiga.png",
+      "imageAlt": "Robozinho"
+    }
+  ]
+  

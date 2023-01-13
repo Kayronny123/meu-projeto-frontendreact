@@ -1,0 +1,51 @@
+@use 'variables'
+@use 'mixins'
+*
+ font-family: "Josefin Sans"
+ padding: 0
+ margin: 0
+ box-sizing: border-box
+ border-radius: 10px
+
+.card-nome
+  margin: 5rem
+  color: variables.$text-color
+  font-size: 1.2rem
+  margin-bottom: 1rem
+  padding-left: 1rem
+  text-align: center
+  border: 1px solid black
+  border-radius: 10px
+
+
+.card-imagem
+ display: flex
+ max-width: 55%
+ align-items: center
+ padding: auto
+ margin: auto
+ justify-content: center
+ background-size: 100%
+ background-position: centerbackground
+ background-repeat: no-repeat
+ filter: grayscale(100%)
+ transition: .8s
+ border: 1px solid black
+ flex-direction: row
+
+ &:hover
+    background-size: 120%
+    filter: grayscale(0%)
+    &-card
+    flex-direction: column
+
+.price-product   
+  border: 1px solid black
+  display:flex
+  border-radius: 10px
+  position: absolute
+  bottom: -9%
+  width: 9rem
+  margin: -.1rem
+  padding: .1rem
+ 

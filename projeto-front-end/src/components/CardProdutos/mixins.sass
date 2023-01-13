@@ -1,0 +1,18 @@
+@use 'variables'
+
+@mixin container
+ max-width: variables.$container-width
+ padding: 1.7rem 0
+ margin: 0 auto
+
+@mixin flex-center
+ display: flex
+ align-items: center
+ justify-content: center
+ 
+@mixin image-stile
+ background-size: 100%
+ background-position: centerbackground
+ background-repeat: no-repeat
+ filter: grayscale(100%)
+ transition: .6s
