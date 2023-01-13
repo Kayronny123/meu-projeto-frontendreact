@@ -14,7 +14,9 @@ export default function App() {
       {/* componente filho da barra de busca recebendo por props os estados */}
       <Header nome={nome} setNome={setNome} id={id} setId={setId} />
       {/* componente filho da redenrização dos produtos recebendo por props os estados */}
-      <NovosProdutos nome={nome} setProduto={setNome} id={id} setId={setId} />
+      <NovosProdutos  nome={nome} setProduto={setNome} id={id} setId={setId} />
+      
+
     </div>
   );
 }

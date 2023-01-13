@@ -60,24 +60,24 @@ export default function NovosProdutos(props) {
   // filtra os produtos pelo nome e id passados como propriedades
   const produtosFiltrados = todosProdutos.filter(
     ({ nome, id }) =>
-      nome.toUpperCase().includes(props.nome.toUpperCase()) &&
-      id.includes(props.id)
+      nome.toUpperCase().includes(nome.toUpperCase()) &&
+      id.includes(id)
   );
 
   return (
     <section>
       {/* utiliza a função map para iterar sobre os produtos filtrados */}
       {produtosFiltrados.map(({ id, nome, preco, imagem, descricao }) => (
-        <p className="card-nome">
+        <div key={id} className="card-nome">
           {nome}
           <div className="card-imagem">
             <img className="card-imagem" src={imagem} alt="card-imagem" />
             <button onClick={acessarProdutos} className="price-product">
               Adicionar ao carrinho
             </button>
-            <p className="card-descricao">{descricao}</p>
+            <p key={id} className="card-descricao">{descricao}</p>
           </div>
-        </p>
+        </div>
       ))}
     </section>
   );
